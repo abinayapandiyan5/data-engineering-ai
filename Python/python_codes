@@ -153,7 +153,6 @@ snake_case: data_engineering_batch
 
 Sol:
 ===
-
-var1 = DataEngineeringBatch
-var2 = dataEngineeringBatch
-var3 = data_engineering_batch
+StudentName = "Abinaya"
+courseName  = "Data engineering"
+institute_name = "Inceptez"
