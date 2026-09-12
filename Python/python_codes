@@ -1,0 +1,159 @@
+A. Python is an indent based programming language
+The following program throws an indentation error. Correct it and make sure it prints properly.
+
+teams = ['Data', 'AI', 'DevOps']
+for t in teams:
+print('Hello', t, 'Team from Inceptez Technologies')
+  print('Keep Learning and Exploring!')
+
+Sol:
+====
+teams = ['Data', 'AI', 'DevOps']
+for t in teams:
+    print('Hello', t, 'Team from Inceptez Technologies')
+print('Keep Learning and Exploring!')
+
+
+
+
+B. Commented line in Python
+Use Case 1:
+Add single-line and multi-line comments to describe what the below code does for Inceptez Technologies’ training tracker.
+
+students = 100
+trainers = 2
+total = students + trainers
+print(total)
+
+Sol:
+====
+# Students and trainers count of inceptez
+students = 100
+trainers = 2
+total = students + trainers
+print(total)
+
+
+Use Case 2:
+Convert the below block into a “dead code” using comments, then re-activate it later to print
+
+print("Welcome to Inceptez Python Learning")
+
+Sol:
+====
+'''print("Welcome to Inceptez Python Learning")'''
+print('''"Welcome to Inceptez Python Learning"''')
+
+
+C. Playing with Quotes
+Use Case 1:
+Create three string variables that correctly store and print:
+
+This is Inceptez's "Python" class for Data Engineers & AI Engineers
+→ Use single, double, and triple quotes appropriately.
+
+Sol:
+====
+var1 = "This is Inceptez's"
+var2 = '"Python" class for'
+var3 = "Data Engineers & AI Engineers"
+print(var1, var2, var3)
+
+
+Use Case 2:
+Write a multiline string using triple quotes that prints:
+
+Welcome to Inceptez Technologies!
+Python Training: Basics
+Enjoy your learning journey.
+
+Sol:
+====
+var1 = """Welcome to Inceptez Technologies!
+Python Training: Basics
+Enjoy your learning journey."""
+print(var1)
+
+
+
+
+D. Let's learn all about VARIABLES
+Use Case 1:
+Declare variables to store the following details:
+- Student Name
+- Course Name (e.g., “Python Fundamentals”)
+- Training Institute Name (Inceptez Technologies)
+
+Then print a formatted message:
+
+Name: Arun is learning the course Python Fundamentals at the institute Inceptez Technologies
+
+Sol:
+====
+stu_name = "Arun"
+course_name = "Python Fundamentals"
+institute_name = "Inceptez Technologies"
+print(stu_name,'is learning the course',course_name,'at the institute',institute_name)
+
+
+
+Use Case 2:
+Demonstrate dynamic inference, dynamic typing using with fee by applying .18 gst  and prove strongly typing character also by operating it with Eighteen percent gst
+
+fee = 45000
+
+Sol:
+====
+# Dynamic inference
+fee = 45000
+print(type(fee))
+gst = 0.18
+print(type(gst))
+
+
+# Dynamic typing
+fee = 45000
+print(type(fee))
+fee = fee * 0.18
+print(type(fee))
+
+
+#strongly typed
+fee = 'Hundred'
+gst = 0.18
+print(fee + gst)
+
+
+E. Variables Naming Conventions
+Use Case 1:
+Identify which variable names below are invalid for Inceptez’s student database:
+
+1) 2student = 'Ravi'
+2) _student_id = 1001
+3) studentName = 'Priya'
+4) class name = 'Python'
+5) inceptez_batch = 'Morning'
+
+Sol:
+====
+
+1) 2student = 'Ravi'  #invalid
+2) _student_id = 1001 #valid
+3) studentName = 'Priya' #valid
+4) class name = 'Python' #invalid
+5) inceptez_batch = 'Morning' #valid
+
+
+Use Case 2:
+Declare 3 variables following naming styles for Inceptez projects:
+
+PascalCase: DataEngineeringBatch
+camelCase: dataEngineeringBatch
+snake_case: data_engineering_batch
+
+Sol:
+===
+
+var1 = DataEngineeringBatch
+var2 = dataEngineeringBatch
+var3 = data_engineering_batch
